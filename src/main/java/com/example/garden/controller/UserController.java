@@ -1,12 +1,9 @@
 package com.example.garden.controller;
 
 import com.example.garden.entity.UserProfile;
-import com.example.garden.repository.GardenRepository;
-import com.example.garden.repository.UserProfileRepository;
 import com.example.garden.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.garden.entity.Response;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 

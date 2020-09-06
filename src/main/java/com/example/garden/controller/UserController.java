@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.example.garden.entity.Response;
 import org.springframework.web.bind.annotation.*;
 
-
+@CrossOrigin
 @RestController
 @RequestMapping("user/")
 public class UserController {

@@ -1,6 +1,8 @@
 package com.example.garden.entity;
 
 import javax.persistence.*;
+import java.util.List;
+import java.util.Map;
 
 @Entity
 @Table(name = "user_profile")
@@ -19,6 +21,7 @@ public class UserProfile {
     private String social;
     private String phone;
     private String userStatus;
+//    private Map<Vouchers> vouchersList;
 
     public Long getId() {
         return id;
@@ -83,6 +86,14 @@ public class UserProfile {
     public void setUserStatus(String userStatus) {
         this.userStatus = userStatus;
     }
+
+//    public List<Vouchers> getVouchersList() {
+//        return vouchersList;
+//    }
+//
+//    public void setVouchersList(List<Vouchers> vouchersList) {
+//        this.vouchersList = vouchersList;
+//    }
 
     @Override
     public String toString() {
